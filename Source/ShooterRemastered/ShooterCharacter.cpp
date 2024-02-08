@@ -26,7 +26,6 @@ AShooterCharacter::AShooterCharacter()
 	bUseControllerRotationRoll = false;
 }
 
-// Called when the game starts or when spawned
 void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
