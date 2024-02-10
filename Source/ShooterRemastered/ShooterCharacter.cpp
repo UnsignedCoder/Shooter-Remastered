@@ -32,16 +32,12 @@ AShooterCharacter::AShooterCharacter()
 void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
-	CharacterMovementInstance->CharacterMovementTest();
 }
 
 // Called every frame
 void AShooterCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	CharacterMovementInstance->PrintHelloWorld();
 }
 
 // Called to bind functionality to input

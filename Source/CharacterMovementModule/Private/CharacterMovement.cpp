@@ -11,15 +11,6 @@ ACharacterMovement::ACharacterMovement()
 
 }
 
-void ACharacterMovement::CharacterMovementTest()
-{
-	GEngine->AddOnScreenDebugMessage(0, 15.0f, FColor::Blue, TEXT("Hello, world!"));
-}
-
-void ACharacterMovement::PrintHelloWorld()
-{
-    UE_LOG(LogTemp, Warning, TEXT("I'm working"));
-}
 
 // Called when the game starts or when spawned
 void ACharacterMovement::BeginPlay()
